@@ -1,4 +1,4 @@
-import { GetServerSidePropsContext } from 'next';
+import { GetServerSidePropsContext } from '@awwong1/next';
 
 export const assertReqRes = (req: unknown, res: unknown): void => {
   if (!req) {

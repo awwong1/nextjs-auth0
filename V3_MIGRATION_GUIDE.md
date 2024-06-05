@@ -27,7 +27,7 @@ export default withApiAuthRequired(async function handler(req, res) {
 ### After
 
 ```ts
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiRequest, NextApiResponse } from '@awwong1/next';
 import { withApiAuthRequired } from '@auth0/nextjs-auth0'
 
 export default withApiAuthRequired(async function handler(req: NextApiRequest, res: NextApiResponse) {

@@ -1,5 +1,5 @@
-import { NextApiResponse, NextApiRequest } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextApiResponse, NextApiRequest } from '@awwong1/next';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import { HandleLogin as BaseHandleLogin, HandleLogout as BaseHandleLogout } from '../auth0-session';
 import { assertReqRes } from '../utils/assert';
 import { HandlerErrorCause, LogoutHandlerError } from '../utils/errors';

@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiRequest, NextApiResponse } from '@awwong1/next';
 import { CookieJar } from 'tough-cookie';
 import timekeeper from 'timekeeper';
 import { withApi, withoutApi } from '../fixtures/default-settings';

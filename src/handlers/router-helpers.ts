@@ -1,5 +1,5 @@
-import { NextRequest } from 'next/server';
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextRequest } from '@awwong1/next/server';
+import { NextApiRequest, NextApiResponse } from '@awwong1/next';
 import { isRequest } from '../utils/req-helpers';
 
 export type AppRouteHandlerFnContext = {

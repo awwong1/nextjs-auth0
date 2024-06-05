@@ -1,5 +1,5 @@
 import type React from 'react';
-import { GetServerSideProps, GetServerSidePropsContext, GetServerSidePropsResult } from 'next';
+import { GetServerSideProps, GetServerSidePropsContext, GetServerSidePropsResult } from '@awwong1/next';
 import { Claims, get, SessionCache } from '../session';
 import { assertCtx } from '../utils/assert';
 import { ParsedUrlQuery } from 'querystring';

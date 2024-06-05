@@ -1,6 +1,6 @@
 import { IncomingMessage, ServerResponse } from 'http';
-import { NextApiRequest, NextApiResponse } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextApiRequest, NextApiResponse } from '@awwong1/next';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import type { TokenEndpointResponse } from '../auth0-session';
 import {
   SessionCache as ISessionCache,

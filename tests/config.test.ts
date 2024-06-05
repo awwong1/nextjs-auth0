@@ -1,4 +1,4 @@
-import { NextRequest } from 'next/server';
+import { NextRequest } from '@awwong1/next/server';
 import { NextConfig, getConfig, configSingletonGetter } from '../src/config';
 import { Auth0NextRequest, Auth0NextRequestCookies } from '../src/http';
 

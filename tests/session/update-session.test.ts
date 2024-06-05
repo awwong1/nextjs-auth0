@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import { CookieJar } from 'tough-cookie';
 import { login, setup, teardown } from '../fixtures/setup';
 import { withApi, withoutApi } from '../fixtures/default-settings';

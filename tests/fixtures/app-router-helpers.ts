@@ -1,6 +1,6 @@
 import nock from 'nock';
 import { default as nodeFetch } from 'node-fetch';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import {
   Auth0Server,
   CallbackOptions,

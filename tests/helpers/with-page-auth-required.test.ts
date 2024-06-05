@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import { NextResponse } from 'next/server';
+import { NextResponse } from '@awwong1/next/server';
 import { URL } from 'url';
 import { login, setup, teardown } from '../fixtures/setup';
 import { login as appRouterLogin } from '../fixtures/app-router-helpers';

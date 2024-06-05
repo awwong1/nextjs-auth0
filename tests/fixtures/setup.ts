@@ -1,5 +1,5 @@
 import { IncomingMessage, ServerResponse } from 'http';
-import { NextApiHandler, NextApiRequest, NextApiResponse } from 'next';
+import { NextApiHandler, NextApiRequest, NextApiResponse } from '@awwong1/next';
 import nock from 'nock';
 import { CookieJar } from 'tough-cookie';
 import {

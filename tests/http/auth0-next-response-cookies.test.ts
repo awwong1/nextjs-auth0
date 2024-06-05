@@ -1,5 +1,5 @@
 import { Auth0NextResponseCookies } from '../../src/http';
-import { NextResponse } from 'next/server';
+import { NextResponse } from '@awwong1/next/server';
 
 describe('auth0-next-response', () => {
   it('should set a cookie', async () => {

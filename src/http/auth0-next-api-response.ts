@@ -1,5 +1,5 @@
 import { NodeResponse } from '../auth0-session/http';
-import { NextApiResponse } from 'next';
+import { NextApiResponse } from '@awwong1/next';
 
 export default class Auth0NextApiResponse extends NodeResponse<NextApiResponse> {
   public redirect(location: string, status = 302): void {

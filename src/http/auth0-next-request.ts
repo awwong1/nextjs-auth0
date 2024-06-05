@@ -1,5 +1,5 @@
 import { Auth0Request } from '../auth0-session/http';
-import { NextRequest } from 'next/server';
+import { NextRequest } from '@awwong1/next/server';
 
 export default class Auth0NextRequest extends Auth0Request<NextRequest> {
   public constructor(req: NextRequest) {

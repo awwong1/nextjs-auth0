@@ -1,5 +1,5 @@
-import { NextApiResponse, NextApiRequest } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextApiResponse, NextApiRequest } from '@awwong1/next';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import {
   AuthorizationParameters,
   HandleCallback as BaseHandleCallback,
@@ -114,7 +114,7 @@ export type AfterCallbackPageRoute = (
  * ```js
  * // app/api/auth/[auth0]/route.js
  * import { handleAuth, handleCallback } from '@auth0/nextjs-auth0';
- * import { NextResponse } from 'next/server';
+ * import { NextResponse } from '@awwong1/next/server';
  *
  * const afterCallback = (req, session) => {
  *   if (session.user.isAdmin) {
@@ -139,7 +139,7 @@ export type AfterCallbackPageRoute = (
  * ```js
  * // pages/api/auth/[auth0].js
  * import { handleAuth, handleCallback } from '@auth0/nextjs-auth0';
- * import { NextResponse } from 'next/server';
+ * import { NextResponse } from '@awwong1/next/server';
  *
  * const afterCallback = (req, session, state) => {
  *   session.user.customProperty = 'foo';
@@ -157,7 +157,7 @@ export type AfterCallbackPageRoute = (
  * ```js
  * // pages/api/auth/[auth0].js
  * import { handleAuth, handleCallback } from '@auth0/nextjs-auth0';
- * import { NextResponse } from 'next/server';
+ * import { NextResponse } from '@awwong1/next/server';
  *
  * export const GET = handleAuth({
  *   async callback(req, ctx) {

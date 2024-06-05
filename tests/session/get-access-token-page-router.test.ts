@@ -1,4 +1,4 @@
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiRequest, NextApiResponse } from '@awwong1/next';
 import nock from 'nock';
 import { login, setup, teardown } from '../fixtures/setup';
 import { withApi } from '../fixtures/default-settings';

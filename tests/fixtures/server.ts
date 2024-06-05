@@ -1,5 +1,5 @@
 import { createServer as createHttpServer, IncomingMessage, Server, ServerResponse } from 'http';
-import { NextApiRequest, NextApiResponse } from 'next';
+import { NextApiRequest, NextApiResponse } from '@awwong1/next';
 import * as qs from 'querystring';
 import * as cookie from 'cookie';
 import { AddressInfo } from 'net';

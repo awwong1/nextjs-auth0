@@ -1,5 +1,5 @@
-import { NextApiResponse, NextApiRequest, NextApiHandler } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextApiResponse, NextApiRequest, NextApiHandler } from '@awwong1/next';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import { get, SessionCache } from '../session';
 import { assertReqRes } from '../utils/assert';
 import { isRequest } from '../utils/req-helpers';

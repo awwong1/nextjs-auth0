@@ -2,7 +2,7 @@ import { login, setup, teardown } from '../fixtures/setup';
 import { withoutApi } from '../fixtures/default-settings';
 import { get } from '../auth0-session/fixtures/helpers';
 import { getResponse, login as appRouterLogin } from '../fixtures/app-router-helpers';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import { initAuth0 } from '../../src';
 
 describe('touch-session', () => {

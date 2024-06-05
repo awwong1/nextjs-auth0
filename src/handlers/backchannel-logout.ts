@@ -1,5 +1,5 @@
-import { NextApiResponse, NextApiRequest } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextApiResponse, NextApiRequest } from '@awwong1/next';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import { HandleBackchannelLogout as BaseHandleBackchannelLogout } from '../auth0-session';
 import { Auth0NextApiRequest, Auth0NextApiResponse, Auth0NextRequest, Auth0NextResponse } from '../http';
 import { AppRouteHandlerFnContext, Handler, getHandler } from './router-helpers';

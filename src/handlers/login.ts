@@ -1,5 +1,5 @@
-import { NextApiResponse, NextApiRequest } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextApiResponse, NextApiRequest } from '@awwong1/next';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import {
   AuthorizationParameters,
   HandleLogin as BaseHandleLogin,

@@ -162,7 +162,7 @@ export type UseUser = () => UserContext;
  *
  * ```js
  * // pages/profile.js
- * import Link from 'next/link';
+ * import Link from '@awwong1/next/link';
  * import { useUser } from '@auth0/nextjs-auth0/client';
  *
  * export default function Profile() {

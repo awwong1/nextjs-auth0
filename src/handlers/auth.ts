@@ -1,5 +1,5 @@
-import { NextApiHandler, NextApiRequest, NextApiResponse } from 'next';
-import { NextRequest } from 'next/server';
+import { NextApiHandler, NextApiRequest, NextApiResponse } from '@awwong1/next';
+import { NextRequest } from '@awwong1/next/server';
 import { HandleLogin } from './login';
 import { HandleLogout } from './logout';
 import { HandleCallback } from './callback';

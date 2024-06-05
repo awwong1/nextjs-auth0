@@ -1,6 +1,6 @@
 import { IncomingMessage, ServerResponse } from 'http';
-import { NextApiRequest, NextApiResponse } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextApiRequest, NextApiResponse } from '@awwong1/next';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import { AuthorizationParameters } from '../auth0-session';
 import { AccessTokenError, AccessTokenErrorCode } from '../utils/errors';
 import { intersect, match } from '../utils/array';
@@ -111,7 +111,7 @@ export interface GetAccessTokenResult {
  *
  * ```js
  * // app/my-api/route.js
- * import { NextResponse } from 'next/server';
+ * import { NextResponse } from '@awwong1/next/server';
  * import { getAccessToken } from '@auth0/nextjs-auth0';
  *
  * export async function GET() {
@@ -121,7 +121,7 @@ export interface GetAccessTokenResult {
  *
  * // Or, it's slightly more efficient to use the `req`, `res` args if you're
  * // using another part of the SDK like `withApiAuthRequired` or `getSession`.
- * import { NextResponse } from 'next/server';
+ * import { NextResponse } from '@awwong1/next/server';
  * import { getAccessToken, withApiAuthRequired } from '@auth0/nextjs-auth0';
  *
  * const GET = withApiAuthRequired(async function GET(req) {
@@ -152,7 +152,7 @@ export interface GetAccessTokenResult {
  *
  * ```js
  * // app/my-api/route.js
- * import { NextResponse } from 'next/server';
+ * import { NextResponse } from '@awwong1/next/server';
  * import { getAccessToken } from '@auth0/nextjs-auth0/edge'; // Note the /edge import
  *
  * export async function GET() {
@@ -198,7 +198,7 @@ export interface GetAccessTokenResult {
  * **In middleware:**
  *
  * ```js
- * import { NextResponse } from 'next/server';
+ * import { NextResponse } from '@awwong1/next/server';
  * import { getAccessToken } from '@auth0/nextjs-auth0/edge'; // Note the /edge import
 
  *

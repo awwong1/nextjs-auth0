@@ -1,5 +1,5 @@
 import { IncomingMessage, ServerResponse } from 'http';
-import { NextApiHandler } from 'next';
+import { NextApiHandler } from '@awwong1/next';
 import { withoutApi } from '../fixtures/default-settings';
 import { login, setup, teardown } from '../fixtures/setup';
 import { get } from '../auth0-session/fixtures/helpers';

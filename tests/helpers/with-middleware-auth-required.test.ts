@@ -1,5 +1,5 @@
-import { NextRequest, NextResponse } from 'next/server';
-import { NextFetchEvent } from 'next/dist/server/web/spec-extension/fetch-event';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
+import { NextFetchEvent } from '@awwong1/next/dist/server/web/spec-extension/fetch-event';
 import { initAuth0 } from '../../src/edge';
 import { withoutApi } from '../fixtures/default-settings';
 import { IdTokenClaims } from 'openid-client';

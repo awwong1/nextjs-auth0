@@ -13,7 +13,7 @@ import {
   mockFetch,
   initAuth0
 } from '../fixtures/app-router-helpers';
-import { NextRequest } from 'next/server';
+import { NextRequest } from '@awwong1/next/server';
 import { Store } from '../auth0-session/fixtures/helpers';
 
 describe('profile handler (app router)', () => {

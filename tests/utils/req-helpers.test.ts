@@ -1,6 +1,6 @@
 import { Socket } from 'net';
 import { IncomingMessage } from 'http';
-import { NextRequest } from 'next/server';
+import { NextRequest } from '@awwong1/next/server';
 import { isRequest, isNextApiRequest } from '../../src/utils/req-helpers';
 
 describe('req-helpers', () => {

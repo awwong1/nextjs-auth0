@@ -1,6 +1,6 @@
 import type { IncomingMessage } from 'http';
-import { NextApiRequest } from 'next';
-import { NextRequest } from 'next/server';
+import { NextApiRequest } from '@awwong1/next';
+import { NextRequest } from '@awwong1/next/server';
 
 type Req = IncomingMessage | NextApiRequest | NextRequest | Request | Record<string, any>;
 

@@ -9,7 +9,7 @@ import {
   ConfigParameters,
   AppRouteHandlerFn
 } from '../src';
-import { NextRequest } from 'next/server';
+import { NextRequest } from '@awwong1/next/server';
 
 describe('index', () => {
   let withPageAuthRequired: WithPageAuthRequired,

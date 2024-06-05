@@ -1,4 +1,4 @@
-import { NextResponse } from 'next/server';
+import { NextResponse } from '@awwong1/next/server';
 import type { CookieSerializeOptions } from 'cookie';
 import { Auth0Response } from '../auth0-session/http';
 

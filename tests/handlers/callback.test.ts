@@ -1,7 +1,7 @@
 /**
  * **REMOVE-TO-TEST-ON-EDGE**@jest-environment @edge-runtime/jest-environment
  */
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import { withApi } from '../fixtures/default-settings';
 import { signCookie } from '../auth0-session/fixtures/helpers';
 import { encodeState } from '../../src/auth0-session/utils/encoding';

@@ -2,7 +2,7 @@
  * **REMOVE-TO-TEST-ON-EDGE**@jest-environment @edge-runtime/jest-environment
  */
 import Auth0NextRequest from '../../src/http/auth0-next-request';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 
 const setup = (reqInit?: { headers: { cookie: string } }): [NextRequest, NextResponse] => {
   return [new NextRequest(new URL('http://example.com'), reqInit), NextResponse.next()];

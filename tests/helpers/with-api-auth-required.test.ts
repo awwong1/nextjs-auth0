@@ -1,5 +1,5 @@
 import { randomBytes } from 'crypto';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import { login, setup, teardown } from '../fixtures/setup';
 import { withApi, withoutApi } from '../fixtures/default-settings';
 import { get } from '../auth0-session/fixtures/helpers';

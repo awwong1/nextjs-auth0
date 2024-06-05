@@ -1,6 +1,6 @@
 import React from 'react';
-import { NextApiRequest, NextApiResponse } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextApiRequest, NextApiResponse } from '@awwong1/next';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import { expectTypeOf } from 'expect-type';
 import { handleAuth, HandlerError, AppRouteHandlerFnContext, withPageAuthRequired } from '../src';
 

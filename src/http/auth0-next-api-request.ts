@@ -1,5 +1,5 @@
 import { Auth0Request } from '../auth0-session/http';
-import { NextApiRequest } from 'next';
+import { NextApiRequest } from '@awwong1/next';
 
 export default class Auth0NextApiRequest extends Auth0Request<NextApiRequest> {
   public constructor(req: NextApiRequest) {

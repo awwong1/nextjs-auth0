@@ -1,6 +1,6 @@
 import { IncomingMessage, ServerResponse } from 'http';
-import { NextApiRequest, NextApiResponse } from 'next';
-import { NextRequest, NextResponse } from 'next/server';
+import { NextApiRequest, NextApiResponse } from '@awwong1/next';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import { SessionCache, Session, get } from '../session';
 
 /**
@@ -97,7 +97,7 @@ import { SessionCache, Session, get } from '../session';
  * **In middleware:**
  *
  * ```js
- * import { NextResponse } from 'next/server';
+ * import { NextResponse } from '@awwong1/next/server';
  * import { getSession } from '@auth0/nextjs-auth0/edge'; // Note the /edge import
  *
  * export async function middleware(req) {

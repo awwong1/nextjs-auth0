@@ -1,4 +1,4 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextRequest, NextResponse } from '@awwong1/next/server';
 import nock from 'nock';
 import { withApi } from '../fixtures/default-settings';
 import { AccessTokenRequest, initAuth0, Session } from '../../src';

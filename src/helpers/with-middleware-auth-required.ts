@@ -1,4 +1,4 @@
-import { NextMiddleware, NextRequest, NextResponse } from 'next/server';
+import { NextMiddleware, NextRequest, NextResponse } from '@awwong1/next/server';
 import { SessionCache } from '../session';
 import { GetConfig } from '../config';
 import { Auth0NextRequest } from '../http';
