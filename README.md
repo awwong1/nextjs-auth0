@@ -1,3 +1,6 @@
+> NOTE: This is a fork of the original [@auth0/nextjs-auth0](https://github.com/@auth0/nextjs-auth0) repository with a modification to use commonjs oauth4webapi. See also https://github.com/auth0/nextjs-auth0/issues/1752
+
+
 ![nextjs-auth0](https://cdn.auth0.com/website/sdks/banners/nextjs-auth0-banner.png)
 
 The Auth0 Next.js SDK is a library for implementing user authentication in Next.js applications.
