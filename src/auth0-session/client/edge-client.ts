@@ -1,4 +1,4 @@
-import * as oauth from 'oauth4webapi';
+import * as oauth from '@awwong1/oauth4webapi';
 import * as jose from 'jose';
 import { Auth0Request } from '../http';
 import {
